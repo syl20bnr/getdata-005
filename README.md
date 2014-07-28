@@ -5,7 +5,7 @@
 - load `run_analysis.R`
 - execute the function:
 
-    data <- clean_data()
+        data <- clean_data()
 
 __Note: the `clean_data()` function will download and extract the data set__
 
@@ -14,8 +14,8 @@ __Note: the `clean_data()` function will download and extract the data set__
 - load `run_analysis.R`
 - execute the functions:
 
-    data <- clean_data()
-    write_avg_tidy_dataset(data)
+        data <- clean_data()
+        write_avg_tidy_dataset(data)
 
 You should get a file named `avg_tidy_dataset_getdata-005.txt` in the repo.
 
