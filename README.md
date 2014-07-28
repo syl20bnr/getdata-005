@@ -21,5 +21,6 @@ You should get a file named `avg_tidy_dataset_getdata-005.txt` in the repo.
 
 ## Getting more info
 
-Read the cook book contained the `CookBook.md` file.
+Read the cook book contained the [CookBook.md](https://github.com/syl20bnr/getdata-005/blob/master/CookBook.md)
+file.
 

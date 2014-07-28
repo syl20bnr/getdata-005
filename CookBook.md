@@ -1,6 +1,6 @@
 # Cookbook
 
-The data used in this cookbook are available at the following address:
+The raw data used in this cookbook are available at the following address:
 http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 To get a description of the study, please visit the URL:
@@ -88,8 +88,23 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
   - "BodyGyroJerkMag_Std")
 
 ## Tidy data set with average values
-This data set represents the average of the means and standard deviations of each
+See the [README.md](https://github.com/syl20bnr/getdata-005/blob/master/README.md)
+file in order to create this data set.
+
+The data set is stored in the file `"avg_tidy_dataset_getdata-005.txt"`.
+
+This data represent the average of the means and standard deviations of each
 variable for each (subject, activity) pair.
 
 The first column is the subject, the second is the activity, the subsequent
 columns are the average of the means and standard deviations.
+
+The number of subject is `30` and the activities are:
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
+
+The columns labels are the same as the cleaned data.
